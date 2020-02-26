@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.stage.*?>
+
+<Stage xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Nombre.CajeroAutomatico.Controllers.FXMLController">
+    <scene>
+        <Scene>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+            <children>
+               <TextField fx:id="textMiNipF" layoutX="226.0" layoutY="107.0" />
+               <Label layoutX="284.0" layoutY="77.0" text="Mi NIP" />
+               <Label layoutX="272.0" layoutY="167.0" text="Nuevo NIP" />
+               <TextField fx:id="textNuevoNipF" layoutX="228.0" layoutY="207.0" />
+               <TextField fx:id="textNuevoNip2F" layoutX="226.0" layoutY="285.0" />
+               <Label layoutX="247.0" layoutY="252.0" text="Confirmar nuevo NIP" />
+               <Button layoutX="274.0" layoutY="343.0" mnemonicParsing="false" onAction="#verificarCambioNipF" text="Verificar" />
+            </children></AnchorPane>
+
+        </Scene>
+    </scene>
+</Stage>

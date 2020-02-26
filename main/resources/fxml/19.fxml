@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.stage.*?>
+
+<Stage xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Nombre.CajeroAutomatico.Controllers.FXMLController">
+    <scene>
+        <Scene>
+    <AnchorPane prefHeight="200" prefWidth="200">
+      <children>
+         <SubScene height="200.0" width="200.0">
+           <root>
+             <Region />
+           </root>
+         </SubScene>
+         <ImageView fitHeight="500.0" fitWidth="700.0">
+            <image>
+               <Image url="@../BANK/19.jpeg" />
+            </image>
+         </ImageView>
+         <Button fx:id="cerrarEnNip" layoutX="268.0" layoutY="238.0" mnemonicParsing="false" onAction="#cerrarNip" opacity="0.0" prefHeight="33.0" prefWidth="134.0" text="CERRAR" />
+         <Label layoutX="277.0" layoutY="200.0" prefHeight="18.0" prefWidth="223.0" text="07 / 02 / 2020" />
+      </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

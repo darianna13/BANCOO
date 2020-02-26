@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.stage.*?>
+
+<Stage xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Nombre.CajeroAutomatico.Controllers.FXMLController">
+    <scene>
+        <Scene>
+            <AnchorPane fx:id="escribir100" prefHeight="200" prefWidth="200">
+                <children>
+                    <SubScene height="200.0" width="200.0">
+                        <root>
+                            <Region />
+                        </root>
+                    </SubScene>
+                    <ImageView fitHeight="500.0" fitWidth="700.0">
+                        <image>
+                            <Image url="@../BANK/21.jpeg" />
+                        </image>
+                    </ImageView>
+                    <Button fx:id="retiro100" layoutX="159.0" layoutY="225.0" mnemonicParsing="false" onAction="#retirar100" opacity="0.0" prefHeight="40.0" prefWidth="102.0" text="100" />
+                    <Button fx:id="retiro200" layoutX="292.0" layoutY="225.0" mnemonicParsing="false" onAction="#retirar200" opacity="0.0" prefHeight="40.0" prefWidth="108.0" text="200" />
+                    <Button fx:id="retiro300" layoutX="429.0" layoutY="225.0" mnemonicParsing="false" onAction="#retirar300" opacity="0.0" prefHeight="42.0" prefWidth="103.0" text="300" />
+                    <Button fx:id="retiro400" layoutX="210.0" layoutY="284.0" mnemonicParsing="false" onAction="#retirar400" opacity="0.0" prefHeight="38.0" prefWidth="107.0" text="400" />
+                    <Button fx:id="retiro500" layoutX="374.0" layoutY="284.0" mnemonicParsing="false" onAction="#retirar500" opacity="0.0" prefHeight="39.0" prefWidth="106.0" text="500" />
+                    <Button fx:id="cerrarI" layoutX="476.0" layoutY="450.0" mnemonicParsing="false" opacity="0.0" prefHeight="38.0" prefWidth="122.0" text="CERRAR" />
+                    <TextField fx:id="idLabel" disable="true" layoutX="218.0" layoutY="384.0" prefHeight="11.0" prefWidth="133.0" />
+                    <Button fx:id="botonOtro" layoutX="118.0" layoutY="381.0" mnemonicParsing="false" onAction="#otro" opacity="0.0" prefHeight="23.0" prefWidth="75.0" />
+                    <Button fx:id="botonAceptarRetiro" layoutX="391.0" layoutY="381.0" mnemonicParsing="false" onAction="#validacion2" opacity="0.0" prefHeight="34.0" prefWidth="110.0" text="ACEPTAR" />
+
+                </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

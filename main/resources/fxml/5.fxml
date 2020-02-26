@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.stage.*?>
+
+<Stage xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Nombre.CajeroAutomatico.Controllers.FXMLController">
+    <scene>
+        <Scene>
+    <AnchorPane prefHeight="200" prefWidth="200">
+      <children>
+         <SubScene height="200.0" width="200.0">
+           <root>
+             <Region />
+           </root>
+         </SubScene>
+         <ImageView fitHeight="500.0" fitWidth="700.0" layoutY="-1.0">
+            <image>
+               <Image url="@../BANK/5.jpeg" />
+            </image>
+         </ImageView>
+         <Button fx:id="consultar" layoutY="153.0" mnemonicParsing="false" onAction="#consultarSaldo" opacity="0.0" prefHeight="46.0" prefWidth="136.0" text="CONSULTAR SALDO" />
+         <Button fx:id="btonRetiro" layoutY="226.0" mnemonicParsing="false" onAction="#retirar" opacity="0.0" prefHeight="40.0" prefWidth="136.0" text="RETIRAR" />
+         <Button fx:id="pagarServicios" layoutX="563.0" layoutY="130.0" mnemonicParsing="false" onAction="#pagoServicios" opacity="0.0" prefHeight="45.0" prefWidth="135.0" text="PAGAR SERVICIOS" />
+         <Button fx:id="historialPagos" layoutX="563.0" layoutY="199.0" mnemonicParsing="false" onAction="#pasarHistorial" opacity="0.0" prefHeight="46.0" prefWidth="134.0" text="HISTORIAL DE PAGOS" />
+         <Button fx:id="btnCambiarNip" layoutX="566.0" layoutY="273.0" mnemonicParsing="false" onAction="#cambiarNip" opacity="0.0" prefHeight="42.0" prefWidth="133.0" text="CAMBIAR NIP" />
+         <Button fx:id="btnTransferencia" layoutX="3.0" layoutY="294.0" mnemonicParsing="false" onAction="#Transferir" opacity="0.0" prefHeight="42.0" prefWidth="130.0" text="TRANSFERIR" />
+      </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.stage.*?>
+
+<Stage xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Nombre.CajeroAutomatico.Controllers.FXMLController">
+    <scene>
+        <Scene>
+    <AnchorPane prefHeight="200" prefWidth="200">
+      <children>
+         <SubScene height="200.0" width="200.0">
+           <root>
+             <Region />
+           </root>
+         </SubScene>
+         <ImageView fitHeight="500.0" fitWidth="700.0">
+            <image>
+               <Image url="@../BANK/16.jpeg" />
+            </image>
+         </ImageView>
+         <Button layoutX="472.0" layoutY="438.0" mnemonicParsing="false" opacity="0.0" prefHeight="42.0" prefWidth="118.0" text="CERRAR" />
+         <TextField fx:id="nuevoNip" layoutX="263.0" layoutY="280.0" />
+         <TextField fx:id="confirmarNuevoNip" layoutX="263.0" layoutY="357.0" />
+         <Button fx:id="btnValidarNipCambio" layoutX="271.0" layoutY="404.0" mnemonicParsing="false" onAction="#validacion" opacity="0.0" prefHeight="48.0" prefWidth="134.0" text="VALIDAR" />
+               <TextField fx:id="miNip" layoutX="256.0" layoutY="200.0" />
+      </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

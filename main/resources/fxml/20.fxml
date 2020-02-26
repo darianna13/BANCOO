@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.SubScene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+
+<?import javafx.stage.Stage?>
+<Stage xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Nombre.CajeroAutomatico.Controllers.FXMLController">
+    <scene>
+        <Scene>
+    <AnchorPane prefHeight="200" prefWidth="200">
+      <children>
+         <SubScene height="200.0" width="200.0">
+           <root>
+             <Region />
+           </root>
+         </SubScene>
+         <ImageView fitHeight="500.0" fitWidth="700.0">
+            <image>
+               <Image url="@../BANK/20.jpeg" />
+            </image>
+         </ImageView>
+         <Button layoutX="7.0" layoutY="448.0" mnemonicParsing="false" opacity="0.0" prefHeight="40.0" prefWidth="115.0" text="IMPRIMIR" />
+         <Button layoutX="419.0" layoutY="429.0" mnemonicParsing="false" opacity="0.0" prefHeight="26.0" prefWidth="129.0" text="CERRAR" />
+         <TextArea editable="false" layoutX="151.0" layoutY="215.0" prefHeight="190.0" prefWidth="400.0" />
+      </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.stage.*?>
+
+<Stage xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Nombre.CajeroAutomatico.Controllers.FXMLController">
+    <scene>
+    <Scene>
+    <AnchorPane prefHeight="200" prefWidth="200.0">
+      <children>
+         <SubScene height="200.0" width="200.0">
+           <root>
+             <Region />
+           </root>
+         </SubScene>
+         <ImageView fitHeight="500.0" fitWidth="700.0">
+            <image>
+
+               <Image url="@../BANK1/Diapositiva1.JPG" />
+            </image>
+         </ImageView>
+         <Button fx:id="boton1" layoutX="294.0" layoutY="286.0" mnemonicParsing="false" onAction="#validar" prefHeight="38.0" prefWidth="113.0" text="VALIDAR" textAlignment="CENTER" textFill="#506ebf" />
+         <TextField fx:id="ingreseSuTarjetaF" layoutX="176.0" layoutY="218.0" onAction="#validar" prefHeight="47.0" prefWidth="356.0" />
+               <Button fx:id="boton1F" layoutX="65.0" layoutY="274.0" mnemonicParsing="false" onAction="#botonN1F" text="1" />
+               <Button fx:id="boton2F" layoutX="109.0" layoutY="312.0" mnemonicParsing="false" onAction="#botonN2F" text="2" />
+      </children></AnchorPane>
+    </Scene>
+    </scene>
+</Stage>

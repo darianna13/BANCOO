@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.stage.*?>
+
+<Stage xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Nombre.CajeroAutomatico.Controllers.FXMLController">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="480.0" prefWidth="640.0">
+            <children>
+               <Button fx:id="Btn1" layoutX="245.0" layoutY="281.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="1" />
+               <Button fx:id="Btn2" layoutX="295.0" layoutY="281.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="2" />
+               <Button fx:id="Btn3" layoutX="345.0" layoutY="281.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="3" />
+               <Button fx:id="Btn4" layoutX="245.0" layoutY="331.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="4" />
+               <Button fx:id="Btn5" layoutX="295.0" layoutY="331.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="5" />
+               <Button fx:id="Btn6" layoutX="345.0" layoutY="331.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="6" />
+               <Button fx:id="Btn7" layoutX="245.0" layoutY="381.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="7" />
+               <Button fx:id="Btn8" layoutX="295.0" layoutY="381.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="8" />
+               <Button fx:id="Btn9" layoutX="345.0" layoutY="381.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="9" />
+               <TabPane layoutX="168.0" layoutY="40.0" prefHeight="200.0" prefWidth="305.0" side="BOTTOM" tabClosingPolicy="UNAVAILABLE">
+                 <tabs>
+                   <Tab>
+                     <content>
+                       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                     </content>
+                   </Tab>
+                   <Tab>
+                     <content>
+                       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                     </content>
+                   </Tab>
+                 </tabs>
+               </TabPane>
+               <Button layoutX="126.0" layoutY="109.0" mnemonicParsing="false" text="Button" />
+            </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

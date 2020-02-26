@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.stage.*?>
+
+<Stage xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Nombre.CajeroAutomatico.Controllers.FXMLController">
+    <scene>
+        <Scene>
+    <AnchorPane prefHeight="200" prefWidth="200">
+      <children>
+         <SubScene height="200.0" width="200.0">
+           <root>
+             <Region />
+           </root>
+         </SubScene>
+         <ImageView fitHeight="500.0" fitWidth="700.0">
+            <image>
+               <Image url="@../BANK/13.jpeg" />
+            </image>
+         </ImageView>
+         <Button fx:id="comapa" layoutX="56.0" layoutY="200.0" mnemonicParsing="false" onAction="#entrarEnPagoServicios" opacity="0.0" prefHeight="83.0" prefWidth="112.0" text="COMAPA" />
+         <Button fx:id="CFE" layoutX="189.0" layoutY="200.0" mnemonicParsing="false" onAction="#entrarEnPagoServicios" opacity="0.0" prefHeight="94.0" prefWidth="116.0" text="CFE" />
+         <Button layoutX="315.0" layoutY="200.0" mnemonicParsing="false" onAction="#entrarEnPagoServicios" opacity="0.0" prefHeight="92.0" prefWidth="122.0" text="TELMEX" />
+         <Button layoutX="449.0" layoutY="200.0" mnemonicParsing="false" onAction="#entrarEnPagoServicios" opacity="0.0" prefHeight="91.0" prefWidth="114.0" text="NETFLIX" />
+         <Button layoutX="48.0" layoutY="294.0" mnemonicParsing="false" onAction="#entrarEnPagoServicios" opacity="0.0" prefHeight="94.0" prefWidth="128.0" text="SKY" />
+         <Button layoutX="189.0" layoutY="302.0" mnemonicParsing="false" onAction="#entrarEnPagoServicios" opacity="0.0" prefHeight="86.0" prefWidth="113.0" text="BLIM" />
+         <Button layoutX="315.0" layoutY="302.0" mnemonicParsing="false" onAction="#entrarEnPagoServicios" opacity="0.0" prefHeight="87.0" prefWidth="122.0" text="IZZI" />
+         <Button layoutX="449.0" layoutY="302.0" mnemonicParsing="false" onAction="#entrarEnPagoServicios" opacity="0.0" prefHeight="89.0" prefWidth="120.0" text="DISH" />
+         <Button layoutX="471.0" layoutY="425.0" mnemonicParsing="false" opacity="0.0" prefHeight="34.0" prefWidth="122.0" text="CERRAR" />
+      </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.stage.*?>
+
+<Stage xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Nombre.CajeroAutomatico.Controllers.FXMLController">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="200" prefWidth="200">
+            <children>
+               <SubScene height="219.0" layoutY="-14.0" width="214.0">
+                 <root>
+                   <Region />
+                 </root>
+               </SubScene>
+               <ImageView fitHeight="500.0" fitWidth="700.0">
+                  <image>
+                     <Image url="@../BANK1/Diapositiva3.JPG" />
+                  </image>
+               </ImageView>
+               <PasswordField fx:id="primerNipF" layoutX="158.0" layoutY="214.0" prefHeight="51.0" prefWidth="342.0">
+                  <font>
+                     <Font size="19.0" />
+                  </font>
+               </PasswordField>
+               <ProgressBar layoutX="214.0" layoutY="293.0" prefWidth="200.0" />
+               <Button layoutX="300.0" layoutY="390.0" mnemonicParsing="false" onAction="#ingresarPrimerNipF" text="Ingresar" />
+            </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>
